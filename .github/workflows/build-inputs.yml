@@ -111,3 +111,4 @@ jobs:
       rules: ${{ needs.process-inputs.outputs.rules }}
       custom_config: ${{ needs.process-inputs.outputs.custom_config }}
       merge: ${{ needs.process-inputs.outputs.merge }}
+      bootloader: uf2-split-left
